@@ -1,0 +1,20 @@
+[21-Dec-2014 08:39:43] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home1/toolz/public_html/phpThumb/phpThumb.config.php on line 147
+[21-Dec-2014 08:39:43] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home1/toolz/public_html/phpThumb/phpThumb.config.php on line 147
+[21-Dec-2014 08:39:47] PHP Fatal error:  Class 'phpThumb' not found in /home1/toolz/public_html/phpThumb/phpThumb.php on line 118
+[21-Dec-2014 08:39:47] PHP Parse error:  syntax error, unexpected $end, expecting T_STRING or T_VARIABLE or '{' or '$' in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 344
+[21-Dec-2014 08:39:47] PHP Parse error:  syntax error, unexpected $end, expecting T_STRING or T_VARIABLE or '{' or '$' in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 344
+[21-Dec-2014 08:39:47] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 1015
+[21-Dec-2014 08:39:47] PHP Parse error:  syntax error, unexpected ')' in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 1015
+[21-Dec-2014 08:39:47] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 1015
+[21-Dec-2014 08:39:47] PHP Parse error:  syntax error, unexpected ')' in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 1015
+[21-Dec-2014 08:39:47] PHP Parse error:  syntax error, unexpected $end in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 3489
+[21-Dec-2014 08:39:47] PHP Parse error:  syntax error, unexpected $end in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 3625
+[21-Dec-2014 09:29:11] PHP Warning:  getimagesize(/home1/toolz/public_html/phpThumb/poze/B60001410044.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 1616
+[21-Dec-2014 09:29:41] PHP Warning:  getimagesize(/home1/toolz/public_html/phpThumb/poze/B60001410044.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 1616
+[21-Dec-2014 09:30:32] PHP Warning:  getimagesize(/home1/toolz/public_html/phpThumb/poze/B60001410044.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 1616
+[21-Dec-2014 09:31:00] PHP Warning:  getimagesize(/home1/toolz/public_html/phpThumb/poze/B60001410044.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 1616
+[21-Dec-2014 09:31:59] PHP Warning:  getimagesize(/home1/toolz/public_html/phpThumb/poze/B60001410044.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 1616
+[21-Dec-2014 09:32:06] PHP Warning:  getimagesize(/home1/toolz/public_html/phpThumb/poze/B/B60001410044.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 1616
+[21-Dec-2014 09:32:26] PHP Warning:  getimagesize(/home1/toolz/public_html/phpThumb/poze/B/B60001410044.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 1616
+[21-Dec-2014 09:33:03] PHP Warning:  getimagesize(/home1/toolz/public_html/phpThumb/poze/I/IZ-6897-1.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home1/toolz/public_html/phpThumb/phpthumb.class.php on line 1616
+[21-Dec-2014 10:11:58] PHP Parse error:  syntax error, unexpected $end in /home1/toolz/public_html/phpThumb/phpThumb.config.php on line 147

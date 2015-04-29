@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This is the full list of specific particularities which you can set for each image. Next to each property is the corresponding overall setting of the Banner.
+When you specify one of these properties as an XML attribute for each image, the corresponding overall setting of the Banner will be ignored.
+
+Particular Property				Overall Property
+_____________________________________________________________
+effect							imageEffects -> type
+zoompercent						imageEffects -> zoomPercent
+dur								imageEffects -> duration
+direction						imageEffects -> direction
+hzoompos						imageEffects -> hZoomPos
+vzoompos						imageEffects -> vZoomPos
+hpos							textOptions -> hPos
+vpos							textOptions -> vPos
+width							textOptions -> width
+height							textOptions -> height
+slide							textEffects -> slide
+appear							textEffects -> appear
+func							textEffects -> function
+type							textBackground -> type
+transition (a transition ID from the transitions list)
+duration (duration for each image but change the value of autoTiming to false in settings.xml file)
+-->
+
+<slideshow>
+	<photo image="images/banners/image1.jpg" url="http://www.toolszone.ro/trusa-capete-chei-tubulare-laturi-si-accesorii-14-in-cutie-de-plastic-41415-piese-7203-pc-kronus-p-8783.html" target="_blank" duration="4" effect="zoom" zoompercent="200" direction="out" hzoompos="left" vzoompos="right">
+	</photo>
+	
+	<photo image="images/banners/image2.jpg" url="http://www.toolszone.ro/set-burghie-laminate-hss-170-piese-kochbohrer-caseta-metalica-gri-p-1525.html" target="_blank" duration="4" effect="zoom" zoompercent="200" direction="out" hzoompos="center" vzoompos="center">
+	</photo>
+	
+	<photo image="images/banners/image3.jpg" url="http://www.toolszone.ro/set-burghie-laminate-hss-170-piese-kochbohrer-caseta-metalica-gri-p-1525.html" target="_blank" duration="4" effect="kenburns" direction="right"> 
+	</photo>
+	
+	<photo image="images/banners/image4.jpg" url="http://www.toolszone.ro/trusa-scule-mecanici-auto-65-piese-9115-ak-unior-p-9000.html" target="_blank" duration="4" effect="kenburns" direction="top">
+
+	</photo>
+	
+</slideshow>

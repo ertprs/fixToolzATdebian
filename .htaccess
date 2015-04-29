@@ -1,0 +1,69 @@
+# If you are getting errors you may need to comment this out like ..
+# Options +FollowSymLinks
+Options +FollowSymLinks
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # RewriteBase instructions
+  # Change RewriteBase dependent on how your shop is accessed as below.
+  # http://www.mysite.com = RewriteBase /
+  # http://www.mysite.com/catalog/ = RewriteBase /catalog/ 
+  # http://www.mysite.com/catalog/shop/ = RewriteBase /catalog/shop/
+
+  # Change RewriteBase using the instructions above  
+  RewriteBase /
+
+  RewriteRule ^(.*)-p-([0-9]+).html$ product_info.php?products_id=$2&%{QUERY_STRING}
+  RewriteRule ^(.*)-p-([0-9]+).htmls$ product_infoS.php?products_id=$2&%{QUERY_STRING}
+  RewriteRule ^(.*)-c-([0-9_]+).html$ index.php?cPath=$2&%{QUERY_STRING}
+  RewriteRule ^(.*)-c-([0-9_]+).htmls$ indexS.php?cPath=$2&%{QUERY_STRING}
+  RewriteRule ^(.*)-m-([0-9]+).html$ index.php?manufacturers_id=$2&%{QUERY_STRING}
+  RewriteRule ^(.*)-pi-([0-9]+).html$ popup_image.php?pID=$2&%{QUERY_STRING}
+  RewriteRule ^(.*)-pr-([0-9]+).html$ product_reviews.php?products_id=$2&%{QUERY_STRING}
+  RewriteRule ^(.*)-pri-([0-9]+).html$ product_reviews_info.php?products_id=$2&%{QUERY_STRING}
+  # Articles contribution
+  RewriteRule ^(.*)-t-([0-9_]+).html$ articles.php?tPath=$2&%{QUERY_STRING}
+  RewriteRule ^(.*)-a-([0-9]+).html$ article_info.php?articles_id=$2&%{QUERY_STRING}
+  # Information pages
+  RewriteRule ^(.*)-i-([0-9]+).html$ information.php?info_id=$2&%{QUERY_STRING}
+  # Links contribution
+  RewriteRule ^(.*)-links-([0-9_]+).html$ links.php?lPath=$2&%{QUERY_STRING}
+  # Newsdesk contribution
+  RewriteRule ^(.*)-n-([0-9]+).html$ newsdesk_info.php?newsdesk_id=$2&%{QUERY_STRING}
+  RewriteRule ^(.*)-nc-([0-9]+).html$ newsdesk_index.php?newsPath=$2&%{QUERY_STRING}
+  RewriteRule ^(.*)-nri-([0-9]+).html$ newsdesk_reviews_info.php?newsdesk_id=$2&%{QUERY_STRING}
+  RewriteRule ^(.*)-nra-([0-9]+).html$ newsdesk_reviews_article.php?newsdesk_id=$2&%{QUERY_STRING}
+
+
+</IfModule>
+AuthName "admin"
+AuthUserFile "/home/toolz/.htpasswds/public_html/passwd"
+
+RewriteCond %{HTTP_USER_AGENT} libwww-perl [OR]
+
+RewriteCond %{QUERY_STRING} tool25 [OR]
+
+RewriteCond %{QUERY_STRING} cmd.txt [OR]
+
+RewriteCond %{QUERY_STRING} cmd.gif [OR]
+
+RewriteCond %{QUERY_STRING} r57shell [OR]
+
+RewriteCond %{QUERY_STRING} c99 [OR]
+
+ErrorDocument 404 /404.shtml
+
+RewriteCond %{HTTP_HOST} ^toolszone.ro$
+RewriteRule ^/?$ "http\:\/\/www\.toolszone\.ro\/" [R=301,L]
+
+#RewriteCond %{ENV:REDIRECT_SUBDOMAIN} =""
+#RewriteCond %{HTTP_HOST} ^(www\.)?([a-z0-9][-a-z0-9]+)\.toolszone\.ro(:80)?$ [NC]
+#RewriteCond %{HTTP_HOST} !^www\.toolszone\.ro
+#RewriteCond %{DOCUMENT_ROOT}/%2 -d
+#RewriteRule ^(.*) /%2/$1 [E=SUBDOMAIN:%2,L]
+#RewriteRule ^ - [E=SUBDOMAIN:%{ENV:REDIRECT_SUBDOMAIN},L]
+
+#implementare virtual subdomain
+#RewriteCond %{HTTP_HOST} ^(.+)\.toolszone\.ro$ [NC]
+# The state is captured as %1
+#RewriteRule ^(.+)$ $1?state=%1 [L,QSA]

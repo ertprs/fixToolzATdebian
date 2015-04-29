@@ -1,0 +1,162 @@
+[09-Jan-2015 11:35:39] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/toolz/public_html/admin/whos_online.php on line 130
+[09-Jan-2015 11:36:44] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/toolz/public_html/admin/whos_online.php on line 136
+[26-Jan-2015 05:04:13] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/toolz/public_html/admin/whos_online.php on line 129
+[26-Jan-2015 05:04:19] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/toolz/public_html/admin/whos_online.php on line 138
+[10-Feb-2015 12:08:40] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home1/toolz/public_html/admin/includes/classes/upload.php on line 137
+[10-Feb-2015 12:08:40] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: '/home/toolz/public_html/poze/PR-F0517.jpg' is not a valid JPEG file in /home1/toolz/public_html/admin/includes/classes/upload.php on line 137
+[10-Feb-2015 12:08:40] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home1/toolz/public_html/admin/includes/classes/upload.php on line 179
+[10-Feb-2015 12:08:40] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home1/toolz/public_html/admin/includes/classes/upload.php on line 137
+[10-Feb-2015 12:08:40] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: '/home/toolz/public_html/poze/PR-F0517.jpg' is not a valid JPEG file in /home1/toolz/public_html/admin/includes/classes/upload.php on line 137
+[10-Feb-2015 12:08:40] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home1/toolz/public_html/admin/includes/classes/upload.php on line 179
+[10-Feb-2015 12:10:39] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home1/toolz/public_html/admin/includes/classes/upload.php on line 137
+[10-Feb-2015 12:10:39] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: '/home/toolz/public_html/poze/PR-F0517.jpg' is not a valid JPEG file in /home1/toolz/public_html/admin/includes/classes/upload.php on line 137
+[10-Feb-2015 12:10:39] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home1/toolz/public_html/admin/includes/classes/upload.php on line 179
+[10-Feb-2015 12:10:39] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home1/toolz/public_html/admin/includes/classes/upload.php on line 137
+[10-Feb-2015 12:10:39] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: '/home/toolz/public_html/poze/PR-F0517.jpg' is not a valid JPEG file in /home1/toolz/public_html/admin/includes/classes/upload.php on line 137
+[10-Feb-2015 12:10:39] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home1/toolz/public_html/admin/includes/classes/upload.php on line 179
+[16-Feb-2015 13:56:16] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/toolz/public_html/admin/whos_online.php on line 130
+[08-Mar-2015 10:34:51] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/toolz/public_html/admin/whos_online.php on line 130
+[08-Mar-2015 10:36:27] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/toolz/public_html/admin/whos_online.php on line 130
+[08-Mar-2015 10:51:22] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/toolz/public_html/admin/whos_online.php on line 130
+[16-Mar-2015 07:22:09] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/toolz/public_html/admin/whos_online.php on line 129
+[18-Mar-2015 05:20:56] PHP Parse error:  syntax error, unexpected T_STRING in /home1/toolz/public_html/admin/upload.php on line 58
+[18-Mar-2015 05:23:36] PHP Parse error:  syntax error, unexpected T_STRING in /home1/toolz/public_html/admin/upload.php on line 58
+[18-Mar-2015 05:23:41] PHP Parse error:  syntax error, unexpected T_STRING in /home1/toolz/public_html/admin/upload.php on line 58
+[18-Mar-2015 05:24:27] PHP Parse error:  syntax error, unexpected T_STRING in /home1/toolz/public_html/admin/upload.php on line 58
+[18-Mar-2015 05:24:29] PHP Parse error:  syntax error, unexpected ':' in /home1/toolz/public_html/admin/upload.php on line 427
+[18-Mar-2015 06:30:50] PHP Fatal error:  Class 'uploadClass' not found in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 3
+[18-Mar-2015 06:32:41] PHP Warning:  move_uploaded_file(../../tmp/) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Is a directory in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 12
+[18-Mar-2015 06:32:41] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpO3NNgz' to '../../tmp/' in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 12
+[18-Mar-2015 06:32:41] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/uploadClass.php:13
+Stack trace:
+#0 /home1/toolz/public_html/admin/mycode/upload_v10.php(4): uploadClass->__construct(Object(Spreadsheet_Excel_Reader))
+#1 /home1/toolz/public_html/admin/upload.php(41): require('/home1/toolz/pu...')
+#2 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#3 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 13
+[18-Mar-2015 06:39:34] PHP Warning:  move_uploaded_file(../../../tmp/) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Is a directory in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 12
+[18-Mar-2015 06:39:34] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpLtJZ6e' to '../../../tmp/' in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 12
+[18-Mar-2015 06:39:34] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/uploadClass.php:13
+Stack trace:
+#0 /home1/toolz/public_html/admin/mycode/upload_v10.php(4): uploadClass->__construct(Object(Spreadsheet_Excel_Reader))
+#1 /home1/toolz/public_html/admin/upload.php(41): require('/home1/toolz/pu...')
+#2 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#3 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 13
+[18-Mar-2015 06:39:40] PHP Warning:  move_uploaded_file(../../../tmp/) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Is a directory in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 12
+[18-Mar-2015 06:39:40] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpZfsr3e' to '../../../tmp/' in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 12
+[18-Mar-2015 06:39:40] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/uploadClass.php:13
+Stack trace:
+#0 /home1/toolz/public_html/admin/mycode/upload_v10.php(4): uploadClass->__construct(Object(Spreadsheet_Excel_Reader))
+#1 /home1/toolz/public_html/admin/upload.php(41): require('/home1/toolz/pu...')
+#2 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#3 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 13
+[18-Mar-2015 06:42:18] PHP Warning:  move_uploaded_file(../../../tmp/) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Is a directory in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 12
+[18-Mar-2015 06:42:18] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpWswe6O' to '../../../tmp/' in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 12
+[18-Mar-2015 06:42:18] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/uploadClass.php:13
+Stack trace:
+#0 /home1/toolz/public_html/admin/mycode/upload_v10.php(4): uploadClass->__construct(Object(Spreadsheet_Excel_Reader))
+#1 /home1/toolz/public_html/admin/upload.php(41): require('/home1/toolz/pu...')
+#2 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#3 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 13
+[18-Mar-2015 12:19:43] PHP Warning:  move_uploaded_file(../../../tmp/TEST_FOMAT1_0.xls) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 13
+[18-Mar-2015 12:19:43] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/php3cvjx3' to '../../../tmp/TEST_FOMAT1_0.xls' in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 13
+[18-Mar-2015 12:19:43] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/uploadClass.php:14
+Stack trace:
+#0 /home1/toolz/public_html/admin/mycode/upload_v10.php(4): uploadClass->__construct(Object(Spreadsheet_Excel_Reader))
+#1 /home1/toolz/public_html/admin/upload.php(41): require('/home1/toolz/pu...')
+#2 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#3 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 14
+[19-Mar-2015 08:43:49] PHP Parse error:  syntax error, unexpected '[' in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 11
+[19-Mar-2015 12:36:53] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/upload_v10.php:7
+Stack trace:
+#0 /home1/toolz/public_html/admin/upload.php(42): require()
+#1 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#2 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 7
+[19-Mar-2015 17:35:23] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/upload_v10.php:7
+Stack trace:
+#0 /home1/toolz/public_html/admin/upload.php(42): require()
+#1 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#2 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 7
+[19-Mar-2015 17:57:52] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid data' in /home1/toolz/public_html/admin/mycode/upload_v10.php:16
+Stack trace:
+#0 /home1/toolz/public_html/admin/upload.php(42): require()
+#1 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#2 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 16
+[19-Mar-2015 19:02:27] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid data' in /home1/toolz/public_html/admin/mycode/upload_v10.php:16
+Stack trace:
+#0 /home1/toolz/public_html/admin/upload.php(42): require()
+#1 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#2 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 16
+[19-Mar-2015 19:34:35] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/upload_v10.php:7
+Stack trace:
+#0 /home1/toolz/public_html/admin/upload.php(42): require()
+#1 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#2 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 7
+[19-Mar-2015 20:56:08] PHP Catchable fatal error:  Object of class uploadClass could not be converted to string in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 39
+[21-Mar-2015 11:53:19] PHP Fatal error:  Function name must be a string in /home1/toolz/public_html/admin/mycode/uploadClass.php on line 59
+[21-Mar-2015 14:16:58] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/upload_v10.php:7
+Stack trace:
+#0 /home1/toolz/public_html/admin/upload.php(42): require()
+#1 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#2 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 7
+[22-Mar-2015 07:34:12] PHP Parse error:  syntax error, unexpected $end in /home1/toolz/public_html/admin/categories.php on line 654
+[22-Mar-2015 07:50:46] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home1/toolz/public_html/admin/categories.php on line 708
+[31-Mar-2015 15:30:56] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/upload_v10.php:7
+Stack trace:
+#0 /home1/toolz/public_html/admin/upload.php(42): require()
+#1 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#2 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 7
+[02-Apr-2015 15:30:28] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/upload_v10.php:7
+Stack trace:
+#0 /home1/toolz/public_html/admin/upload.php(42): require()
+#1 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#2 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 7
+[04-Apr-2015 14:38:01] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/upload_v10.php:7
+Stack trace:
+#0 /home1/toolz/public_html/admin/upload.php(42): require()
+#1 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#2 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 7
+[07-Apr-2015 23:40:26] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/upload_v10.php:7
+Stack trace:
+#0 /home1/toolz/public_html/admin/upload.php(42): require()
+#1 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#2 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 7
+[09-Apr-2015 05:13:10] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/upload_v10.php:7
+Stack trace:
+#0 /home1/toolz/public_html/admin/upload.php(42): require()
+#1 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#2 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 7
+[09-Apr-2015 05:13:15] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/upload_v10.php:7
+Stack trace:
+#0 /home1/toolz/public_html/admin/upload.php(42): require()
+#1 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#2 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 7
+[17-Apr-2015 09:10:24] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/toolz/public_html/admin/whos_online.php on line 136
+[17-Apr-2015 09:14:34] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/toolz/public_html/admin/whos_online.php on line 136
+[20-Apr-2015 23:14:44] PHP Fatal error:  Uncaught exception 'Exception' with message 'Couldn't move' in /home1/toolz/public_html/admin/mycode/upload_v10.php:7
+Stack trace:
+#0 /home1/toolz/public_html/admin/upload.php(42): require()
+#1 /home1/toolz/public_html/admin/categories.php(18): require('/home1/toolz/pu...')
+#2 {main}
+  thrown in /home1/toolz/public_html/admin/mycode/upload_v10.php on line 7
+[23-Apr-2015 01:47:04] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/toolz/public_html/admin/whos_online.php on line 130

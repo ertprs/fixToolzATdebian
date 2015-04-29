@@ -1,0 +1,763 @@
+/*  
+Theme Name: Prosumer
+Theme URI: http://wpgpl.com/themes/prosumer
+Description: <p>Prosumer Theme is clean layout that build with 3 Columns Layout.</p><ul style="list-style:none;"><li>* Left and Right Sidebar</li><li>* Widget Ready</li><li>* Change About text via Admin Profile</li><li>* Custom Image Header</li></ul> <p>Visit the <a href="http://wpgpl.com/themes/prosumer">Theme Page</a> for theme update and other related information.</p><p>The CSS, XHTML and design is released under a <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a></p>
+Version: 1.9.1
+Author: Nurudin Jauhari
+Author URI: http://wpgpl.com/
+Tags: three-columns,fixed-width, orange, green,threaded-comments,right-sidebar,left-sidebar
+
+	This theme was designed and built by Nurudin Jauhari,
+	Crafted on 06 June 2007
+	Last Edit: 22 March 2009 8.29  +7 GMT
+
+	The CSS, XHTML and design is released under a GPL:http://www.opensource.org/licenses/gpl-license.php
+	
+*/
+
+/* Social Style 
+********************* */
+
+html
+{
+	height: 100%;
+	margin-bottom: 0.1em;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+img
+{
+	border: 0;
+}
+p
+{
+	line-height: 1.6em;
+	margin: 0.7em 0;
+}
+dl
+{
+	margin: 1em 0;
+}
+dt
+{
+	font-weight: bold;
+}
+dd
+{
+	margin: 0.5em;
+	padding: 0;
+}
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.right, img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.left, img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+/* End Images */
+
+
+hr
+{
+	display: none;
+}
+body
+{
+	background: #FFFDF6;
+	color: #333;
+	font: 72%/1.6em Georgia, "Times New Roman", Times, serif; 
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+}
+a:link, a:visited
+{
+	color: #666;
+}
+a:hover, a:active
+{
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Etc
+******************** */
+br.clear {
+	clear: both;
+}
+
+/* Design 
+******************** */
+#top {
+	margin: 0 auto;
+	width: 950px;
+	position: relative;
+	height: 131px;
+	background: #333;
+	border-bottom: 2px solid #fff;
+}
+#topi {
+	background: #333 url(images/head.jpg) 0 0 no-repeat;
+	left: 0;
+	width: 576px;
+	height: 131px;
+	top: 0;
+	position: absolute;
+	width: 600px;
+	height: 131px;
+}
+#page {
+	text-align: left;
+	width: 950px;
+	background: #FFFDF6;
+	margin: 20px auto 10px;
+}
+#header {
+	background: #1BACF2;
+	border-bottom: 5px solid #B98718;
+}
+#headr {
+	width: 950px;
+	margin: 0 auto;
+	color: #C3EAFB;
+	text-align: left;
+}
+#headr h1 {
+	margin: 0;
+	padding: 20px 0 0 600px;
+	font-size: 3em;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+#headr h1 a {
+	color: #FF0000;
+	}
+#headr h1 a:hover {
+	color: #FFFFFF;
+	}
+#headr .description {
+	padding: 10px 0 0 600px;
+	color: #efefef;
+}
+.rss2 {
+	position: absolute;
+	right:0;
+	bottom: 0;
+}
+#left {
+	float: left;
+	width: 730px;
+}
+#right {
+	float: right;
+	width: 220px;
+}
+
+#content {
+	width: 510px;
+	float: right;
+}
+	#content-wide {
+		width: 950px;
+	}
+.post {
+	margin-bottom: 10px;
+}
+.entry {
+	margin-bottom: 10px;
+	text-align: justify;
+}
+.entry  a {
+	color: #00FF00;
+}
+.side1 {
+	width: 200px;
+	float: left;
+	color: #000;
+}
+.side2 {
+	width: 200px;
+	float: right;
+	color: #000;
+}
+.gap {
+/*	padding: 10px; */
+}
+/*#out-foot {
+	background: #ccc;
+}
+*/
+#footer {
+	border-top: 1px solid #ccc;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: left;
+	width: 950px;
+	position: relative;
+}
+#footer {
+	color: #333;
+	font-size: 0.9em;
+}
+#footer a {
+	color: #333;
+	text-decoration: underline
+}
+#footer a:hover {
+	color: #06c;
+	text-decoration: none;
+}
+#footer .right {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	text-align: right;
+}
+
+/* Design 
+******************** */
+.side1  ul, .side2  ul{
+	list-style: none;
+}
+.side1  ul.children, .side2  ul.children{
+	margin-left: 16px;
+}
+.boxy, .side1 .categories, .side2 .categories, .widget, .side1 .linkcat, .side2 .linkcat  {
+	margin-bottom: 20px;
+}
+
+input#s {
+	width: 185px;
+	padding: 5px;
+	margin-bottom: 10px;
+	background: #F7F0D4;
+	border: 2px solid #E2B400;
+	color: #A73228;
+}
+input#s:focus {
+	background: #fff;
+	color: #A73228;
+}
+
+input#searchsubmit
+{
+	margin: 0;
+}
+
+
+/* Design  Typo
+********************* */
+.side1 h2, .side2 h2{
+	font: 1.2em Georgia, "Times New Roman", Times, serif;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	padding: 4px;
+	background: #6F7374 url(images/bg-dark.gif) 0 0 repeat-x;
+}
+.side1 ul li ul li a, .side2 ul li ul li  a {
+	color: #333;
+	background: url(images/star2.gif) left top no-repeat;
+	padding-left: 18px;
+}
+.widget_get_recent_comments a:link, .widget_get_recent_comments a:visited, #recentcomments .recentcomments a:link, #recentcomments .recentcomments a:visited {
+	background: none;
+	padding-left: 0;
+}
+.side1 ul li ul li  a:hover,.side2 ul li ul li  a:hover {
+	color: #822601;
+	background: url(images/star.gif) left top no-repeat;
+}
+.side1 ul li ul li.current_page_item a,.side1 ul li ul li.current-cat a, .side2 ul li ul li.current-cat a  {
+	color: #822601;
+	font-weight: bold;
+	background: url(images/star.gif) left top no-repeat;	
+}
+
+h2.pagetitle {
+	text-align: left;
+	font: 1.5em Arial, verdana;
+	border-bottom: 1px solid #ccc;
+}
+
+.post h2 {
+	font: 2em Georgia, "Times New Roman", Times, serif;	
+
+}
+.post h2 a {
+	color: #015D82;
+	display: block;
+}
+.post h2 a:hover {	
+	color: #980F1F;
+}
+p.postmeta {
+	margin-bottom: 10px;
+	color: #A73228;
+}
+
+p.meta {
+	font-size: 87%;
+	border-top: 2px solid #822601;
+	margin-bottom: 10px;
+	color: #A73228;
+}
+p.meta a
+{
+	color: #A73228;
+	text-decoration: none;
+}
+span.user
+{
+	padding: 3px 5px;
+}
+
+span.timr
+{
+	background: #822601;
+	color: #fff;
+	padding: 3px 5px;
+}
+span.catr
+{
+	padding: 3px 5px;
+}
+span.editr
+{
+	padding: 2px 2px 2px 18px;
+}
+span.commr
+{
+	background: url(images/ico/comment.gif) 0 0 no-repeat;
+	padding: 0 2px 0 18px;
+}
+.post ul.postspermonth{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+.post p a {
+	text-decoration: underline;
+}
+.post p a:hover {
+	text-decoration: none;
+}
+.post ul {
+	margin-left: 35px;
+}
+.post ol {
+	margin-left: 40px;
+}
+.post p a:hover {
+	border: none;
+}
+.categr, .monthr {
+	margin-bottom: 20px;
+}
+.categr h2, .monthr h2{
+	border-bottom: 1px solid #ccc;
+}
+
+.rss {
+	background: url(images/feed-icon-10x10.png) left center no-repeat;
+	padding-left: 12px;
+}
+.tags {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+	.tags a {
+		font-weight: normal;
+	}
+	
+
+/* Comment Etc
+********************* */
+.navigation 
+{
+	margin-bottom: 20px;
+	width: 510px;
+	float: left;
+}
+
+.navigation a
+{
+	color: #666;
+}
+.navigation .alignleft
+{
+	float: left;
+	width: 50%;
+}
+.navigation .alignright
+{
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+
+
+.ileft {
+	float: left;
+	margin-right: 5px;
+}
+#avatr {
+	border: 1px solid #333;
+}
+p.stats {
+	color: #999;
+	font-size: .8em;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+}
+blockquote
+{
+	background: url(images/blockquote.gif) no-repeat left top;
+	color: #666;
+	margin: 1em;
+	padding: 0 0 10px 50px;
+}
+#content .commentsfeedr
+{
+	background: url(images/ico/feed_add.png) no-repeat left center;
+	padding: 3px 20px;
+}
+#content .trackbackr
+{
+	background: url(images/ico/arrow_refresh.gif) no-repeat left center;
+	padding: 3px 20px;
+}
+input.textbox, textarea
+{
+	background: #fff url(images/shadow_top.gif) repeat-x top;
+	border: #ccc 1px solid;
+	font: 1em Verdana, Arial, Serif;
+	padding: 2px;
+}
+input.textbox:focus, textarea:focus
+{
+	background: #fff url(images/shadow_top.gif) repeat-x top;
+	border: #999 1px solid;
+}
+#submit
+{
+	padding: 3px 5px;
+}
+.comment
+{
+	background: #fff url(images/shadow_top.gif) repeat-x top;
+	border-bottom: #ddd 1px solid;
+	list-style: none;
+	margin: 0;
+	padding: 1em 0.5em;
+}
+.alt
+{
+	background: #FFF2C3;
+}
+.MyAvatars
+{
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+	float: right;
+	margin-left: 5px;
+	margin-right: 10px;
+	padding: 3px;
+}
+.children {
+	margin-left: 30px;
+}
+.trackbacklist {
+	margin-left: 20px;
+}
+.trackbacklist span {
+}
+
+h3#respond, h3#comments {
+	font: bold 1.2em Georgia, "Times New Roman", Times, serif;
+	color: #333;
+}
+
+#comment {
+	width: 98%;
+}
+/* Top Navigation Style 
+********************* */
+/*  Menuv
+******************** */
+#topy {
+	width: 950px;
+	margin: 0 auto;
+	background: #E2B400 url(images/bg-orange.gif) 0 0 repeat-x;
+	position: relative;
+	height: 40px;
+	font-size: 1.2em;
+}
+div#menuv{
+	font-size:1em;
+	height:2.3em;
+	padding: 0.5em 0.7em 0.7em;
+	margin-bottom: 2em;
+	position:relative;
+}
+#menuv ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menuv ul li {
+	float: left;
+}
+#menuv li.page_item  a, #menuv li.admintab  a {
+	padding: 3px 10px;
+	display: block;
+	color: #fff;
+	border: 1px solid #5A1301;
+	margin-right: 0.5em;
+	background: #336699;
+}
+#menuv li  a:hover {
+	background: #FF0000;
+	color: #5A1301;
+}
+#menuv li.current_page_item  a {
+	padding: 3px 10px;
+	display: block;
+	color: #333;
+	border: 1px solid #5A1301;
+	margin-right: 0.5em;
+	background: #FF0000;
+}
+
+#menuv ul ul{display:none;}
+#menuv ul ul li{float:none;}
+#menuv ul ul ul{display:none;}
+#menuv ul ul li a{margin:0;padding:0;}
+#menuv ul li:hover ul{
+	display:block;
+	position:absolute;
+	padding-top: 4px;
+	}
+#menuv ul li:hover ul ul{
+	display: none;
+}	
+#menuv ul li:hover ul li a{
+	border: 1px solid #fff;
+	background:#333; 
+	color: #fff;
+	display:block;
+	padding: 3px 10px;
+	width:10em;
+/*	margin-top: 2px;  */
+}
+#menuv ul li:hover ul li a:hover{
+	background: #fff;
+	border: 1px solid #333;
+	color: #333;
+}
+
+#menuv li.rss2  a {
+	right: 0;
+	top: 0;
+	position: absolute;
+}
+
+fieldset {
+	border: none;
+}
+textarea#cp_message {
+	width: 100%;
+}
+
+
+pre {
+	width: 95%;
+	overflow:auto;
+	font: 13px 'Courier New', Courier, Verdana, Arial, sans-serif;
+	color: #A73228;
+	max-height: 350px;
+	line-height: 18px;
+	margin: 10px 0;
+	border: 1px solid #A73228;
+	padding: 5px;
+	background: #F7E2D4;
+}
+
+code {
+font: 13px 'Courier New', Courier, Verdana, Arial, sans-serif;
+color: #A73228;
+padding: 2px;
+}
+
+
+/* Calendar */
+#wp-calendar #prev a, #wp-calendar #next a {
+	font-size: 9pt;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align: center;
+	}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	}
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+
+/* Captions */
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	border: 1px solid #B9A359;
+	text-align: center;
+	background-color: #FFE27C;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+/* End captions */
+
+img.wp-smiley {
+	vertical-align: -25%;
+}
+
+.avatar {
+	float: right;
+}
+.commentlist li {
+	position: relative;
+}
+.numero {
+	font-size: 35px;
+	position: absolute;
+	right: 10px;
+	font-style: italic;
+	font-weight: normal;
+	bottom: 15px;
+	color: #ccc;
+}
+.odd .numero {
+	color: #C9BE99;
+}
+.chead .comment-author {
+	font-weight: bold;
+}
+.chead .commentmetadata {
+	font-size: 11px;
+}
+
+/* Change Log *** 
+1.0		: Initial Public Released
+1.1 	: Fix Some Issue
+1.2 	: Fix Custom Image Issue
+1.3 	: Fix Footer Issue
+1.4 	: Fix Recent Comment Widget Issue on WordPress 2.2
+1.4.1 	: Hack Menu
+1.4.2 	: Fix XHTML and CSS, add Favicon
+1.5		: Add some gradient effect, better WP 2.5 compability
+1.5.1	: Add Calendar Stylesheet for Widget
+1.7		: Support WordPress 2.7 (Treaded Comment, Gravatar, Fix Page Menu and More), GPL License
+1.8		: Add Big Comment Number
+1.9		: Move Theme Hosting server and change footer layout
+*** */
+
+

@@ -1,0 +1,2 @@
+AuthName "test"
+AuthUserFile "/home/toolz/.htpasswds/public_html/test/passwd"

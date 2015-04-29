@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="robots" content="noindex">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    var createCookie = function(name, value, days) {
+        var expires;
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toGMTString();
+        }
+        else {
+            expires = "";
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    createCookie('copyEnabled',true,-1);
+    alert('Copy disabled!')
+</script>
+
+</body>
+</html>

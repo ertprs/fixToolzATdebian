@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="debian" preserveTimestamps="false">
+    <serverData>
+      <paths name="debian">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/usedcarsin.eu" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/usedcarsin.eu/zoom/pic" />
+            <excludedPath path="/usedcarsin.eu/blog" />
+            <excludedPath path="/usedcarsin.eu/cache" />
+            <excludedPath path="/usedcarsin.eu/categories_description" />
+            <excludedPath path="/usedcarsin.eu/images" />
+            <excludedPath path="/usedcarsin.eu/forum" />
+            <excludedPath path="/usedcarsin.eu/pdf" />
+            <excludedPath path="/usedcarsin.eu/poze" />
+            <excludedPath path="/usedcarsin.eu/tmp" />
+            <excludedPath local="true" path="$PROJECT_DIR$/zoom/pic" />
+            <excludedPath local="true" path="$PROJECT_DIR$/blog" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cache" />
+            <excludedPath local="true" path="$PROJECT_DIR$/categories_description" />
+            <excludedPath local="true" path="$PROJECT_DIR$/images" />
+            <excludedPath local="true" path="$PROJECT_DIR$/forum" />
+            <excludedPath local="true" path="$PROJECT_DIR$/pdf" />
+            <excludedPath local="true" path="$PROJECT_DIR$/poze" />
+            <excludedPath local="true" path="$PROJECT_DIR$/tmp" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
